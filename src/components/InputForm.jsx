@@ -121,21 +121,6 @@ const InputForm = ({ medalRecords, setMedalRecords }) => {
         onChange={(e) => setBronzeMedal(Number(e.target.value))}
       />
       <ActionButtons handleUpdate={handleUpdate} inputFormBtnStyle={inputFormBtnStyle} ></ActionButtons>
-      {/* <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "10px",
-          marginTop: "10px",
-        }}
-      >
-        <button type="submit" style={inputFormBtnStyle}>
-          국가 추가
-        </button>
-        <button type="button" onClick={handleUpdate} style={inputFormBtnStyle}>
-          업데이트
-        </button>
-      </div> */}
     </form>
   );
 };
