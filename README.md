@@ -8,7 +8,7 @@
 ## 💬 프로젝트 소개
 > 📅 개발 기간 : 2025. 01. 21 ~ 2025. 01. 23 (총 3일)
 > <br><br>
-> <br> **useState** , **useEffect** **hook**을 사용하여 state 상태를 관리
+> <br> **useState** , **useEffect** **hook**을 사용하여 **Medal List**를 관리하였습니다.
 > **LocalStorage** 활용한 메달 기록 집계
 
 <br>
