@@ -1,6 +1,18 @@
 const InputField = ({ label, type, value, onChange }) => {
+  const inputFieldContainerStyle = {
+    display: "flex",
+    flexDirection: "column",
+    gap: "8px",
+  };
+  const inputFieldInputStyle = {
+    width: "100%",
+    padding: "10px",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+  };
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+    <div style={inputFieldContainerStyle}>
       <label for={label} style={{ fontWeight: "bold", marginBottom: "4px" }}>
         {label}
       </label>
@@ -9,12 +21,7 @@ const InputField = ({ label, type, value, onChange }) => {
         type={type}
         value={value}
         onChange={onChange}
-        style={{
-          width: "100%",
-          padding: "10px",
-          border: "1px solid #ccc",
-          borderRadius: "4px",
-        }}
+        style={inputFieldInputStyle}
         required
       />
     </div>
