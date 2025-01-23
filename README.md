@@ -164,7 +164,9 @@ npm run dev
 
 ### 배포 사이트 
 
-***[내가만든 Medal Tracker Project](https://sparta-medal-tracker2-s55i.vercel.app/)*** <br>
+**[ Medal Tracker Project ](https://sparta-medal-tracker2-s55i.vercel.app/)** <br>   
+
+   
 ![image](https://github.com/user-attachments/assets/844d09ad-0294-4cd0-a268-83107ec47435)
 
 
