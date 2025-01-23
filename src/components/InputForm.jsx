@@ -2,21 +2,37 @@ import React, { useState } from "react";
 import InputField from "./InputField";
 import ActionButtons from "./ActionButtons";
 
+
+// formStyle을 컨포넌트안에다 선언하면 실행할때마다 재로드 하는 불필요하는 과정을 겪음
+const formStyle ={
+  display: "flex",
+  flexDirection: "column",
+  gap: "12px", // 간격 줄임
+  maxWidth: "600px",
+  margin: "20px auto",
+  padding: "10px 15px", // 패딩 줄임
+  border: "1px solid #ccc",
+  borderRadius: "8px",
+  backgroundColor: "#fff",
+  boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)", // 그림자 조정
+}
+
+const inputFormBtnStyle = {
+  backgroundColor: "#555", // 어두운 회색
+  color: "#fff",
+  fontWeight: "bold",
+  border: "none",
+  borderRadius: "4px",
+  padding: "8px 16px", // 패딩 줄임
+  cursor: "pointer",
+};
+
 const InputForm = ({ medalRecords, setMedalRecords }) => {
   const [nation, setNation] = useState("");
   const [goldMedal, setGoldMedal] = useState(0);
   const [silverMedal, setSilverMedal] = useState(0);
   const [bronzeMedal, setBronzeMedal] = useState(0);
 
-  const inputFormBtnStyle = {
-    backgroundColor: "#555", // 어두운 회색
-    color: "#fff",
-    fontWeight: "bold",
-    border: "none",
-    borderRadius: "4px",
-    padding: "8px 16px", // 패딩 줄임
-    cursor: "pointer",
-  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -83,18 +99,7 @@ const InputForm = ({ medalRecords, setMedalRecords }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "12px", // 간격 줄임
-        maxWidth: "600px",
-        margin: "20px auto",
-        padding: "10px 15px", // 패딩 줄임
-        border: "1px solid #ccc",
-        borderRadius: "8px",
-        backgroundColor: "#fff",
-        boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)", // 그림자 조정
-      }}
+      style={formStyle}
     >
       <InputField
         label="국가명"
