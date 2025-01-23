@@ -1,5 +1,8 @@
+
+
 const ActionButtons = ({ inputFormBtnStyle, handleUpdate }) => {
   return (
+
     <div
       style={{
         display: "flex",
@@ -19,5 +22,7 @@ const ActionButtons = ({ inputFormBtnStyle, handleUpdate }) => {
     </div>
   );
 };
-
+// inline style 자제할것 
+// button 컴포넌트화 
+// https://ofcourse.kr/css-course/%EC%A0%81%EC%9A%A9-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84
 export default ActionButtons;

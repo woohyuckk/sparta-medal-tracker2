@@ -32,12 +32,13 @@
 │   ├── InputField.jsx
 |   ├── MedalList.jsx
 │   ├── ActionButtons.jsx
+├── 📁 style/
+│   ├── inputForm.css
+│   ├── medalList.css
 │   
-├── App.jsx
-│
 ├── index.css (스타일 파일 1개)
 ├── index.html
-│   
+├── App.jsx
 │   
 │
 
@@ -54,7 +55,7 @@
 - **`App.jsx`**: 메인 컴포넌트로, 전체 애플리케이션의 상태와 주요 로직을 관리.
 - **`InputForm.jsx`**: 입력 폼 컴포넌트로, 사용자로부터 데이터를 입력받아 리스트에 추가하거나 수정하는 기능을 담당.
 
-- **아직 나누지 못함**
+- **index.css에 통합**
 - **`MedalList.jsx`**: 메달 데이터를 테이블 형태로 보여주고 정렬 및 삭제 기능을 포함한 컴포넌트.
 - **`InputField.jsx`**: `InputForm`에서 사용되는 재사용 가능한 입력 필드 컴포넌트.
 
