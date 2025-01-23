@@ -160,3 +160,8 @@
 ```bash
 npm install
 npm run dev
+```
+
+### 배포 사이트 
+https://sparta-medal-tracker2-s55i.vercel.app/
+
