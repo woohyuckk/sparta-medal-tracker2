@@ -162,6 +162,11 @@ npm install
 npm run dev
 ```
 
+### 🔫트러블 슈팅
+
+**[[React] Medal-Tracker 트러블슈팅 ( Container 밖으로 튀어나온 item, 우선순위 정렬)](https://forevero3o.tistory.com/24)**   
+**[[React] useState에서 벗어나 useEffect 사용해보기 - State 관리관련 트러블슈팅](https://forevero3o.tistory.com/25)**
+
 ### 배포 사이트 
 
 **[ Medal Tracker Project ](https://sparta-medal-tracker2-s55i.vercel.app/)** <br>   
