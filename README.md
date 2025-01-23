@@ -163,6 +163,9 @@ npm run dev
 ```
 
 ### 배포 사이트 
-![image](https://github.com/user-attachments/assets/77abc659-6f0a-404c-b16a-f2663f4662c7)
+
 https://sparta-medal-tracker2-s55i.vercel.app/
+![image](https://github.com/user-attachments/assets/844d09ad-0294-4cd0-a268-83107ec47435)
+
+
 
