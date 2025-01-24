@@ -1,6 +1,6 @@
 
 
-# 🥇🥈🥉 Medal Tracker ( 메달 순위 기록 Project ) 
+# 🥇🥈🥉 Medal Tracker (메달 순위 기록 Project) 
 
 
 <br/>
